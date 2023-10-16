@@ -1,0 +1,14 @@
+{
+  "success" : true,
+  "events" : {
+    "rows" : [
+      {
+        "id"         : 1,
+        "resourceId" : 1,
+        "startDate"  : "2023-04-17",
+        "duration"   : 7,
+        "name"       : "Project Kickoff"
+      }
+    ]
+  }
+}
