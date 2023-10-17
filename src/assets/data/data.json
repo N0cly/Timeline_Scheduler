@@ -1,14 +1,23 @@
 {
-  "success" : true,
-  "events" : {
-    "rows" : [
-      {
-        "id"         : 1,
-        "resourceId" : 1,
-        "startDate"  : "2023-04-17",
-        "duration"   : 7,
-        "name"       : "Project Kickoff"
-      }
-    ]
-  }
+  "resources" : [
+    {
+      "id": "father_pid",
+      "name": "father_pid"
+    }
+  ],
+  "events" : [
+    {
+      "id": "father_pid",
+      "name": "father_pid",
+      "startDate": "moment",
+      "endDate": "moment",
+      "eventColor": "color"
+    }
+  ],
+  "assignments" :[
+    {
+      "resources": "father_pid",
+      "event": "father_pid"
+    }
+  ]
 }

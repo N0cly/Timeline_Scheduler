@@ -1,44 +1,29 @@
 {
-  "project" : {
-    "resources" : {
-      "rows" : [
-        { "id" : 1,
-          "name" : "Dan Stevenson"
-        },
-        { "id" : 2,
-          "name" : "Talisha Babin"
+  "logs":
+    {
+      "resources" : [
+        {
+          "id": "job",
+          "name": "job"
         }
-
-      ]
-    },
-    "events" : {
-      "rows" : [
-        { "id" : 1,
-          "startDate" : "2022-01-01 09:28:04",
-          "duration" : 3,
-          "durationUnit" : "d",
-          "name" :"Event 1"
-        },
-        { "id" : 2,
-          "startDate" : "2022-01-01 09:59:50",
-          "endDate" : "2022-01-01 10:00:06",
-          "name" : "Event 2",
-          "eventColor" : "violet"
+      ],
+      "events" : [
+        {
+          "id": "father_pid",
+          "name": "father_pid",
+          "startDate": "moment",
+          "endDate": "moment",
+          "eventColor": "color",
+          "attributData" : "job"
         }
-
-      ]
-    },
-    "assignments" : {
-      "rows" : [
-        { "event" : 1,
-          "resource" : 1
-        },
-        { "event" : 2,
-          "resource" : 2
+      ],
+      "assignments" :[
+        {
+          "resources": "job",
+          "event": "father_pid if job==job"
         }
-
       ]
+
     }
-  }
 
 }
