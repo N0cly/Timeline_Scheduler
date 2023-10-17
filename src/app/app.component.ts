@@ -19,7 +19,6 @@ export class AppComponent {
     this.inputData = logs;
     const groupedData: any = {};
 
-
     for (const record of this.inputData.RECORDS) {
       const job = record.job;
 
@@ -42,6 +41,9 @@ export class AppComponent {
             found = true;
             break;
           }
+          if (record.code === '1'){
+            item.eventColor = "red"
+          }
         }
 
         if (!found) {
@@ -56,27 +58,7 @@ export class AppComponent {
         }
       }
 
-
-      // if (!groupedData[fatherPid]) {
-      //
-      //   groupedData[fatherPid] = {
-      //     startDate: record.moment,
-      //     endDate: record.moment,
-      //     eventColor: 'green'
-      //   };
-      // } else {
-      //
-      //   groupedData[fatherPid].endDate = record.moment;
-      // }
-      //
-      // if (record.code === '1') {
-      //   groupedData[fatherPid].eventColor = 'red';
-      // }
-      // console.log(groupedData[job].name)
-      // console.log("--------------")
-
     }
-    // console.log(groupedData[])
     for (const job in groupedData){
       if (groupedData.hasOwnProperty(job)){
         const jobData = groupedData[job];
@@ -108,40 +90,15 @@ export class AppComponent {
       }
     }
 
-    // for (const fatherPid in groupedData) {
-    //   if (groupedData.hasOwnProperty(fatherPid)) {
-    //     this.resourcesArray.push({
-    //       id: fatherPid,
-    //       name: fatherPid
-    //     });
-    //
-    //     this.eventArray.push({
-    //       id: fatherPid,
-    //       startDate: groupedData[fatherPid].startDate,
-    //       endDate: groupedData[fatherPid].endDate,
-    //       name: fatherPid,
-    //       eventColor: groupedData[fatherPid].eventColor
-    //     });
-    //
-    //     this.assignmentsArray.push({
-    //       event: fatherPid,
-    //       resource: fatherPid
-    //     });
-    //   }
-    // }
     console.log(this.resourcesArray)
     console.log(this.eventArray)
     console.log(this.assignmentsArray)
 
   }
 
-
   resources = this.resourcesArray;
   events = this.eventArray;
   assignments = this.assignmentsArray;
-
-
-
 
   schedulerProConfig = schedulerProConfig;
   projectConfig = projectConfig;
