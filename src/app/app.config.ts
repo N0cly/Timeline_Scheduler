@@ -12,6 +12,6 @@ export const schedulerProConfig: Partial<SchedulerProConfig> = {
       width : 160
     }
   ],
-  startDate : new Date(2023, 6, 10,0,0,1),
-  endDate   : new Date(2023, 9, 17, 23,59,59)
+  startDate : new Date(2022, 4, 4,0,0,1),
+  endDate   : new Date(2022, 5, 17, 23,59,59)
 };
