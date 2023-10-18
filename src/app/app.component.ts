@@ -1,7 +1,8 @@
-import { Component, ViewChild } from '@angular/core';
+import {Component, OnInit, ViewChild} from '@angular/core';
 import { BryntumSchedulerProComponent, BryntumProjectModelComponent } from '@bryntum/schedulerpro-angular';
 import { schedulerProConfig, projectConfig } from './app.config';
-import logs from '../assets/data/data3.json'
+import logs from '../assets/data/data1.json'
+import {SchedulerPro, DatePicker, DateHelper, Toast} from "@bryntum/schedulerpro";
 
 @Component({
   selector    : 'body',
@@ -9,13 +10,16 @@ import logs from '../assets/data/data3.json'
   styleUrls   : ['./app.component.scss']
 })
 
-export class AppComponent {
+export class AppComponent{
+
   inputData: any;
   eventArray: any[] = [];
   resourcesArray: any[] = [];
   assignmentsArray: any[] = [];
 
+
   constructor() {
+
     this.inputData = logs;
     const groupedData: any = {};
 
@@ -69,7 +73,6 @@ export class AppComponent {
             name: job
           });
 
-
           for (const item of jobData){
             this.eventArray.push({
               id: item.id,
@@ -94,16 +97,81 @@ export class AppComponent {
     console.log(this.eventArray)
     console.log(this.assignmentsArray)
 
+
+    new DatePicker({
+      appendTo          : document.body,
+      width             : '24em',
+      date              : new Date(),
+      onSelectionChange : ({ selection }) => {
+        Toast.show(`You picked ${DateHelper.format(selection[0], 'MMM DD')}`);
+      }
+    });
+
+    new SchedulerPro({
+      appendTo : document.body,
+
+      autoHeight : true,
+
+      startDate :'2023-10-18',
+      endDate   : '2023-10-19',
+
+      viewPreset : 'hourAndDay',
+
+      columns : [
+        { field : 'name', text : 'Name', width : 100 }
+      ],
+
+      resources: [] = this.resourcesArray,
+
+      events : [] = this.eventArray,
+
+      assignments : [] = this.assignmentsArray,
+
+
+
+    });
+
+
+
+
   }
 
-  resources = this.resourcesArray;
-  events = this.eventArray;
-  assignments = this.assignmentsArray;
+  // resources = this.resourcesArray;
+  // events = this.eventArray;
+  // assignments = this.assignmentsArray;
 
-  schedulerProConfig = schedulerProConfig;
-  projectConfig = projectConfig;
 
-  @ViewChild('schedulerpro') schedulerProComponent!: BryntumSchedulerProComponent;
-  @ViewChild('project') projectComponent!: BryntumProjectModelComponent;
+
+
+  // scheduler = new SchedulerPro({
+  //
+  //   appendTo : document.body,
+  //
+  //   autoHeight : true,
+  //   viewPreset : 'hourAndDay',
+  //   startDate : '2023-10-18',
+  //   endDate   : '2023-10-19',
+  //
+  //   columns : [
+  //     {
+  //       text : 'Name',
+  //       field : 'name',
+  //       width : 160
+  //     }
+  //   ],
+  //
+  //   resources : this.resourcesArray,
+  //   events : this.eventArray,
+  //   assignments : this.assignmentsArray,
+  // })
+
+
+  // schedulerProConfig = schedulerProConfig;
+  // projectConfig = projectConfig;
+  //
+  // @ViewChild('schedulerpro') schedulerProComponent!: BryntumSchedulerProComponent;
+  // @ViewChild('project') projectComponent!: BryntumProjectModelComponent;
+
+
 
 }

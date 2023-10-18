@@ -1,7 +1,9 @@
-import { SchedulerProConfig, ProjectModelConfig } from '@bryntum/schedulerpro';
+import { SchedulerProConfig, ProjectModelConfig, ViewPreset } from '@bryntum/schedulerpro';
 
 export const projectConfig: Partial<ProjectModelConfig> = {
   // Empty project config
+
+
 };
 
 export const schedulerProConfig: Partial<SchedulerProConfig> = {
@@ -12,6 +14,11 @@ export const schedulerProConfig: Partial<SchedulerProConfig> = {
       width : 160
     }
   ],
-  startDate : new Date(2022, 4, 4,0,0,1),
-  endDate   : new Date(2022, 5, 17, 23,59,59)
+
+  autoHeight : true,
+
+  startDate : '2023-10-18',
+  endDate   : '2023-10-19',
+  viewPreset :  "hourAndDay"
+
 };
