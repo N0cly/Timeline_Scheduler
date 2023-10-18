@@ -1,0 +1,1978 @@
+{
+  "RECORDS": [
+    {
+      "id": "1",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "8Pnfan",
+      "job": "DWAR_BACKUP_TABLES",
+      "code": "0"
+    },
+    {
+      "id": "2",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "8Pnfan",
+      "job": "DWAR_BACKUP_TABLES",
+      "code": "0"
+    },
+    {
+      "id": "3",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "8Pnfan",
+      "job": "DWAR_BACKUP_TABLES",
+      "code": "0"
+    },
+    {
+      "id": "4",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "kZI6Zq",
+      "job": "subj_PREPARE_DIRS",
+      "code": "0"
+    },
+    {
+      "id": "5",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "kZI6Zq",
+      "job": "subj_PREPARE_DIRS",
+      "code": "0"
+    },
+    {
+      "id": "6",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "kZI6Zq",
+      "job": "subj_PREPARE_DIRS",
+      "code": "0"
+    },
+    {
+      "id": "7",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "kZI6Zq",
+      "job": "subj_PREPARE_DIRS",
+      "code": "0"
+    },
+    {
+      "id": "8",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "kZI6Zq",
+      "job": "subj_PREPARE_DIRS",
+      "code": "0"
+    },
+    {
+      "id": "9",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "8Pnfan",
+      "job": "DWAR_BACKUP_TABLES",
+      "code": "0"
+    },
+    {
+      "id": "10",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "8Pnfan",
+      "job": "DWAR_BACKUP_TABLES",
+      "code": "0"
+    },
+    {
+      "id": "11",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "8Pnfan",
+      "job": "DWAR_BACKUP_TABLES",
+      "code": "0"
+    },
+    {
+      "id": "12",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "8Pnfan",
+      "job": "DWAR_BACKUP_TABLES",
+      "code": "0"
+    },
+    {
+      "id": "13",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "8Pnfan",
+      "job": "DWAR_BACKUP_TABLES",
+      "code": "0"
+    },
+    {
+      "id": "14",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "8Pnfan",
+      "job": "DWAR_BACKUP_TABLES",
+      "code": "0"
+    },
+    {
+      "id": "15",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "8Pnfan",
+      "job": "DWAR_BACKUP_TABLES",
+      "code": "0"
+    },
+    {
+      "id": "16",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "8Pnfan",
+      "job": "DWAR_BACKUP_TABLES",
+      "code": "0"
+    },
+    {
+      "id": "17",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "8Pnfan",
+      "job": "DWAR_BACKUP_TABLES",
+      "code": "0"
+    },
+    {
+      "id": "18",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "8Pnfan",
+      "job": "DWAR_BACKUP_TABLES",
+      "code": "0"
+    },
+    {
+      "id": "19",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "8Pnfan",
+      "job": "DWAR_BACKUP_TABLES",
+      "code": "0"
+    },
+    {
+      "id": "20",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "8Pnfan",
+      "job": "DWAR_BACKUP_TABLES",
+      "code": "0"
+    },
+    {
+      "id": "21",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "8Pnfan",
+      "job": "DWAR_BACKUP_TABLES",
+      "code": "0"
+    },
+    {
+      "id": "22",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "8Pnfan",
+      "job": "DWAR_BACKUP_TABLES",
+      "code": "0"
+    },
+    {
+      "id": "23",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "8Pnfan",
+      "job": "DWAR_BACKUP_TABLES",
+      "code": "0"
+    },
+    {
+      "id": "24",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "8Pnfan",
+      "job": "DWAR_BACKUP_TABLES",
+      "code": "0"
+    },
+    {
+      "id": "25",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "8Pnfan",
+      "job": "DWAR_BACKUP_TABLES",
+      "code": "0"
+    },
+    {
+      "id": "26",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "E15KHf",
+      "job": "DWAR_BACKUP_TABLES",
+      "code": "0"
+    },
+    {
+      "id": "27",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "E15KHf",
+      "job": "DWAR_BACKUP_TABLES",
+      "code": "0"
+    },
+    {
+      "id": "28",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "E15KHf",
+      "job": "DWAR_BACKUP_TABLES",
+      "code": "0"
+    },
+    {
+      "id": "29",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "ulO8LX",
+      "job": "subj_PREPARE_DIRS",
+      "code": "0"
+    },
+    {
+      "id": "30",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "ulO8LX",
+      "job": "subj_PREPARE_DIRS",
+      "code": "0"
+    },
+    {
+      "id": "31",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "ulO8LX",
+      "job": "subj_PREPARE_DIRS",
+      "code": "0"
+    },
+    {
+      "id": "32",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "ulO8LX",
+      "job": "subj_PREPARE_DIRS",
+      "code": "0"
+    },
+    {
+      "id": "33",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "E15KHf",
+      "job": "DWAR_BACKUP_TABLES",
+      "code": "0"
+    },
+    {
+      "id": "34",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "E15KHf",
+      "job": "DWAR_BACKUP_TABLES",
+      "code": "0"
+    },
+    {
+      "id": "35",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "E15KHf",
+      "job": "DWAR_BACKUP_TABLES",
+      "code": "0"
+    },
+    {
+      "id": "36",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "E15KHf",
+      "job": "DWAR_BACKUP_TABLES",
+      "code": "0"
+    },
+    {
+      "id": "37",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "E15KHf",
+      "job": "DWAR_BACKUP_TABLES",
+      "code": "0"
+    },
+    {
+      "id": "38",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "E15KHf",
+      "job": "DWAR_BACKUP_TABLES",
+      "code": "0"
+    },
+    {
+      "id": "39",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "E15KHf",
+      "job": "DWAR_BACKUP_TABLES",
+      "code": "0"
+    },
+    {
+      "id": "40",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "E15KHf",
+      "job": "DWAR_BACKUP_TABLES",
+      "code": "0"
+    },
+    {
+      "id": "41",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "E15KHf",
+      "job": "DWAR_BACKUP_TABLES",
+      "code": "0"
+    },
+    {
+      "id": "42",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "E15KHf",
+      "job": "DWAR_BACKUP_TABLES",
+      "code": "0"
+    },
+    {
+      "id": "43",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "E15KHf",
+      "job": "DWAR_BACKUP_TABLES",
+      "code": "0"
+    },
+    {
+      "id": "44",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "E15KHf",
+      "job": "DWAR_BACKUP_TABLES",
+      "code": "0"
+    },
+    {
+      "id": "45",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "E15KHf",
+      "job": "DWAR_BACKUP_TABLES",
+      "code": "0"
+    },
+    {
+      "id": "46",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "E15KHf",
+      "job": "DWAR_BACKUP_TABLES",
+      "code": "0"
+    },
+    {
+      "id": "47",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "E15KHf",
+      "job": "DWAR_BACKUP_TABLES",
+      "code": "0"
+    },
+    {
+      "id": "48",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "E15KHf",
+      "job": "DWAR_BACKUP_TABLES",
+      "code": "0"
+    },
+    {
+      "id": "49",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "E15KHf",
+      "job": "DWAR_BACKUP_TABLES",
+      "code": "0"
+    },
+    {
+      "id": "50",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "yVufnh",
+      "job": "DWAR_MASTER_ATBB_DELTA1_H135_H145",
+      "code": "0"
+    },
+    {
+      "id": "51",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "yVufnh",
+      "job": "DWAR_MASTER_ATBB_DELTA1_H135_H145",
+      "code": "0"
+    },
+    {
+      "id": "52",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "yVufnh",
+      "job": "DWAR_MASTER_ATBB_DELTA1_H135_H145",
+      "code": "0"
+    },
+    {
+      "id": "53",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "jl9V61",
+      "job": "subj_PREPARE_DIRS",
+      "code": "0"
+    },
+    {
+      "id": "54",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "jl9V61",
+      "job": "subj_PREPARE_DIRS",
+      "code": "0"
+    },
+    {
+      "id": "55",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "jl9V61",
+      "job": "subj_PREPARE_DIRS",
+      "code": "0"
+    },
+    {
+      "id": "56",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "jl9V61",
+      "job": "subj_PREPARE_DIRS",
+      "code": "0"
+    },
+    {
+      "id": "57",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "yVufnh",
+      "job": "DWAR_MASTER_ATBB_DELTA1_H135_H145",
+      "code": "0"
+    },
+    {
+      "id": "58",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "yVufnh",
+      "job": "DWAR_MASTER_ATBB_DELTA1_H135_H145",
+      "code": "0"
+    },
+    {
+      "id": "59",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "yVufnh",
+      "job": "DWAR_MASTER_ATBB_DELTA1_H135_H145",
+      "code": "0"
+    },
+    {
+      "id": "60",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "yVufnh",
+      "job": "DWAR_MASTER_ATBB_DELTA1_H135_H145",
+      "code": "0"
+    },
+    {
+      "id": "61",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "yVufnh",
+      "job": "DWAR_MASTER_ATBB_DELTA1_H135_H145",
+      "code": "0"
+    },
+    {
+      "id": "62",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "dnkKlk",
+      "job": "DWAR_MASTER_ATBB_DELTA1_H135_H145",
+      "code": "0"
+    },
+    {
+      "id": "63",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "dnkKlk",
+      "job": "DWAR_MASTER_ATBB_DELTA1_H135_H145",
+      "code": "0"
+    },
+    {
+      "id": "64",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "dnkKlk",
+      "job": "DWAR_MASTER_ATBB_DELTA1_H135_H145",
+      "code": "0"
+    },
+    {
+      "id": "65",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "tphS67",
+      "job": "subj_PREPARE_DIRS",
+      "code": "0"
+    },
+    {
+      "id": "66",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "tphS67",
+      "job": "subj_PREPARE_DIRS",
+      "code": "0"
+    },
+    {
+      "id": "67",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "tphS67",
+      "job": "subj_PREPARE_DIRS",
+      "code": "0"
+    },
+    {
+      "id": "68",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "dnkKlk",
+      "job": "DWAR_MASTER_ATBB_DELTA1_H135_H145",
+      "code": "0"
+    },
+    {
+      "id": "69",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "dnkKlk",
+      "job": "DWAR_MASTER_ATBB_DELTA1_H135_H145",
+      "code": "0"
+    },
+    {
+      "id": "70",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "dnkKlk",
+      "job": "DWAR_MASTER_ATBB_DELTA1_H135_H145",
+      "code": "0"
+    },
+    {
+      "id": "71",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "dnkKlk",
+      "job": "DWAR_MASTER_ATBB_DELTA1_H135_H145",
+      "code": "0"
+    },
+    {
+      "id": "72",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "dnkKlk",
+      "job": "DWAR_MASTER_ATBB_DELTA1_H135_H145",
+      "code": "0"
+    },
+    {
+      "id": "73",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "r04ow8",
+      "job": "DWAR_MASTER_ATBB_DELTA1_H135_H145",
+      "code": "0"
+    },
+    {
+      "id": "74",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "r04ow8",
+      "job": "DWAR_MASTER_ATBB_DELTA1_H135_H145",
+      "code": "0"
+    },
+    {
+      "id": "75",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "r04ow8",
+      "job": "DWAR_MASTER_ATBB_DELTA1_H135_H145",
+      "code": "0"
+    },
+    {
+      "id": "76",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "KRcqwY",
+      "job": "subj_PREPARE_DIRS",
+      "code": "0"
+    },
+    {
+      "id": "77",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "KRcqwY",
+      "job": "subj_PREPARE_DIRS",
+      "code": "0"
+    },
+    {
+      "id": "78",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "KRcqwY",
+      "job": "subj_PREPARE_DIRS",
+      "code": "0"
+    },
+    {
+      "id": "79",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "r04ow8",
+      "job": "DWAR_MASTER_ATBB_DELTA1_H135_H145",
+      "code": "0"
+    },
+    {
+      "id": "80",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "r04ow8",
+      "job": "DWAR_MASTER_ATBB_DELTA1_H135_H145",
+      "code": "0"
+    },
+    {
+      "id": "81",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "r04ow8",
+      "job": "DWAR_MASTER_ATBB_DELTA1_H135_H145",
+      "code": "0"
+    },
+    {
+      "id": "82",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "r04ow8",
+      "job": "DWAR_MASTER_ATBB_DELTA1_H135_H145",
+      "code": "0"
+    },
+    {
+      "id": "83",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "r04ow8",
+      "job": "DWAR_MASTER_ATBB_DELTA1_H135_H145",
+      "code": "0"
+    },
+    {
+      "id": "84",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "r04ow8",
+      "job": "DWAR_MASTER_ATBB_DELTA1_H135_H145",
+      "code": "0"
+    },
+    {
+      "id": "85",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "r04ow8",
+      "job": "DWAR_MASTER_ATBB_DELTA1_H135_H145",
+      "code": "0"
+    },
+    {
+      "id": "86",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "r04ow8",
+      "job": "DWAR_MASTER_ATBB_DELTA1_H135_H145",
+      "code": "0"
+    },
+    {
+      "id": "87",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "r04ow8",
+      "job": "DWAR_MASTER_ATBB_DELTA1_H135_H145",
+      "code": "0"
+    },
+    {
+      "id": "88",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "r04ow8",
+      "job": "DWAR_MASTER_ATBB_DELTA1_H135_H145",
+      "code": "0"
+    },
+    {
+      "id": "89",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "r04ow8",
+      "job": "DWAR_MASTER_ATBB_DELTA1_H135_H145",
+      "code": "0"
+    },
+    {
+      "id": "90",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "r04ow8",
+      "job": "DWAR_MASTER_ATBB_DELTA1_H135_H145",
+      "code": "0"
+    },
+    {
+      "id": "91",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "r04ow8",
+      "job": "DWAR_MASTER_ATBB_DELTA1_H135_H145",
+      "code": "0"
+    },
+    {
+      "id": "92",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "r04ow8",
+      "job": "DWAR_MASTER_ATBB_DELTA1_H135_H145",
+      "code": "0"
+    },
+    {
+      "id": "93",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "r04ow8",
+      "job": "DWAR_MASTER_ATBB_DELTA1_H135_H145",
+      "code": "0"
+    },
+    {
+      "id": "94",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "r04ow8",
+      "job": "DWAR_MASTER_ATBB_DELTA1_H135_H145",
+      "code": "0"
+    },
+    {
+      "id": "95",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "r04ow8",
+      "job": "DWAR_MASTER_ATBB_DELTA1_H135_H145",
+      "code": "0"
+    },
+    {
+      "id": "96",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "r04ow8",
+      "job": "DWAR_MASTER_ATBB_DELTA1_H135_H145",
+      "code": "0"
+    },
+    {
+      "id": "97",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "r04ow8",
+      "job": "DWAR_MASTER_ATBB_DELTA1_H135_H145",
+      "code": "0"
+    },
+    {
+      "id": "98",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "r04ow8",
+      "job": "DWAR_MASTER_ATBB_DELTA1_H135_H145",
+      "code": "0"
+    },
+    {
+      "id": "99",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "r04ow8",
+      "job": "DWAR_MASTER_ATBB_DELTA1_H135_H145",
+      "code": "0"
+    },
+    {
+      "id": "100",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "r04ow8",
+      "job": "DWAR_MASTER_ATBB_DELTA1_H135_H145",
+      "code": "0"
+    },
+    {
+      "id": "411",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "64sk2t",
+      "job": "DWAR_BACKUP_TABLES",
+      "code": "0"
+    },
+    {
+      "id": "412",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "64sk2t",
+      "job": "DWAR_BACKUP_TABLES",
+      "code": "0"
+    },
+    {
+      "id": "413",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "64sk2t",
+      "job": "DWAR_BACKUP_TABLES",
+      "code": "0"
+    },
+    {
+      "id": "414",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "QfCwpy",
+      "job": "subj_PREPARE_DIRS",
+      "code": "0"
+    },
+    {
+      "id": "415",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "QfCwpy",
+      "job": "subj_PREPARE_DIRS",
+      "code": "0"
+    },
+    {
+      "id": "416",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "64sk2t",
+      "job": "DWAR_BACKUP_TABLES",
+      "code": "0"
+    },
+    {
+      "id": "417",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "64sk2t",
+      "job": "DWAR_BACKUP_TABLES",
+      "code": "0"
+    },
+    {
+      "id": "418",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "64sk2t",
+      "job": "DWAR_BACKUP_TABLES",
+      "code": "0"
+    },
+    {
+      "id": "419",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "64sk2t",
+      "job": "DWAR_BACKUP_TABLES",
+      "code": "0"
+    },
+    {
+      "id": "420",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "64sk2t",
+      "job": "DWAR_BACKUP_TABLES",
+      "code": "0"
+    },
+    {
+      "id": "421",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "64sk2t",
+      "job": "DWAR_BACKUP_TABLES",
+      "code": "0"
+    },
+    {
+      "id": "422",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "64sk2t",
+      "job": "DWAR_BACKUP_TABLES",
+      "code": "0"
+    },
+    {
+      "id": "423",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "64sk2t",
+      "job": "DWAR_BACKUP_TABLES",
+      "code": "0"
+    },
+    {
+      "id": "424",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "64sk2t",
+      "job": "DWAR_BACKUP_TABLES",
+      "code": "0"
+    },
+    {
+      "id": "425",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "64sk2t",
+      "job": "DWAR_BACKUP_TABLES",
+      "code": "0"
+    },
+    {
+      "id": "426",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "64sk2t",
+      "job": "DWAR_BACKUP_TABLES",
+      "code": "0"
+    },
+    {
+      "id": "427",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "64sk2t",
+      "job": "DWAR_BACKUP_TABLES",
+      "code": "0"
+    },
+    {
+      "id": "428",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "64sk2t",
+      "job": "DWAR_BACKUP_TABLES",
+      "code": "0"
+    },
+    {
+      "id": "429",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "64sk2t",
+      "job": "DWAR_BACKUP_TABLES",
+      "code": "0"
+    },
+    {
+      "id": "430",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "64sk2t",
+      "job": "DWAR_BACKUP_TABLES",
+      "code": "0"
+    },
+    {
+      "id": "431",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "64sk2t",
+      "job": "DWAR_BACKUP_TABLES",
+      "code": "0"
+    },
+    {
+      "id": "432",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "64sk2t",
+      "job": "DWAR_BACKUP_TABLES",
+      "code": "0"
+    },
+    {
+      "id": "433",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "64sk2t",
+      "job": "DWAR_BACKUP_TABLES",
+      "code": "0"
+    },
+    {
+      "id": "434",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "64sk2t",
+      "job": "DWAR_BACKUP_TABLES",
+      "code": "0"
+    },
+    {
+      "id": "435",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "7KIyqo",
+      "job": "ONE_SHOT_IMPORT_H175_AIRCRAFTS_ECP_VCI_202210",
+      "code": "0"
+    },
+    {
+      "id": "436",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "7KIyqo",
+      "job": "ONE_SHOT_IMPORT_H175_AIRCRAFTS_ECP_VCI_202210",
+      "code": "0"
+    },
+    {
+      "id": "437",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "7KIyqo",
+      "job": "ONE_SHOT_IMPORT_H175_AIRCRAFTS_ECP_VCI_202210",
+      "code": "0"
+    },
+    {
+      "id": "438",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "tiygnr",
+      "job": "subj_PREPARE_DIRS",
+      "code": "0"
+    },
+    {
+      "id": "439",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "tiygnr",
+      "job": "subj_PREPARE_DIRS",
+      "code": "0"
+    },
+    {
+      "id": "440",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "7KIyqo",
+      "job": "ONE_SHOT_IMPORT_H175_AIRCRAFTS_ECP_VCI_202210",
+      "code": "0"
+    },
+    {
+      "id": "441",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "7KIyqo",
+      "job": "ONE_SHOT_IMPORT_H175_AIRCRAFTS_ECP_VCI_202210",
+      "code": "0"
+    },
+    {
+      "id": "442",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "7KIyqo",
+      "job": "ONE_SHOT_IMPORT_H175_AIRCRAFTS_ECP_VCI_202210",
+      "code": "0"
+    },
+    {
+      "id": "443",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "7KIyqo",
+      "job": "ONE_SHOT_IMPORT_H175_AIRCRAFTS_ECP_VCI_202210",
+      "code": "0"
+    },
+    {
+      "id": "444",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "7KIyqo",
+      "job": "ONE_SHOT_IMPORT_H175_AIRCRAFTS_ECP_VCI_202210",
+      "code": "0"
+    },
+    {
+      "id": "445",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "7KIyqo",
+      "job": "ONE_SHOT_IMPORT_H175_AIRCRAFTS_ECP_VCI_202210",
+      "code": "2041"
+    },
+    {
+      "id": "446",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "BTIElK",
+      "job": "DWAR_PLMR_CORE_DOC_WORKFLOW",
+      "code": "0"
+    },
+    {
+      "id": "447",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "BTIElK",
+      "job": "DWAR_PLMR_CORE_DOC_WORKFLOW",
+      "code": "0"
+    },
+    {
+      "id": "448",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "BTIElK",
+      "job": "DWAR_PLMR_CORE_DOC_WORKFLOW",
+      "code": "0"
+    },
+    {
+      "id": "449",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "zHdapB",
+      "job": "subj_PREPARE_DIRS",
+      "code": "0"
+    },
+    {
+      "id": "450",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "zHdapB",
+      "job": "subj_PREPARE_DIRS",
+      "code": "0"
+    },
+    {
+      "id": "451",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "BTIElK",
+      "job": "DWAR_PLMR_CORE_DOC_WORKFLOW",
+      "code": "0"
+    },
+    {
+      "id": "452",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "BTIElK",
+      "job": "DWAR_PLMR_CORE_DOC_WORKFLOW",
+      "code": "1001"
+    },
+    {
+      "id": "453",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "BTIElK",
+      "job": "DWAR_PLMR_CORE_DOC_WORKFLOW",
+      "code": "0"
+    },
+    {
+      "id": "454",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "BTIElK",
+      "job": "DWAR_PLMR_CORE_DOC_WORKFLOW",
+      "code": "1"
+    },
+    {
+      "id": "455",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "BTIElK",
+      "job": "DWAR_PLMR_CORE_DOC_WORKFLOW",
+      "code": "0"
+    },
+    {
+      "id": "456",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "tCsNan",
+      "job": "ONE_SHOT_IMPORT_H175_AIRCRAFTS_ECP_VCI_202210",
+      "code": "0"
+    },
+    {
+      "id": "457",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "tCsNan",
+      "job": "ONE_SHOT_IMPORT_H175_AIRCRAFTS_ECP_VCI_202210",
+      "code": "0"
+    },
+    {
+      "id": "458",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "tCsNan",
+      "job": "ONE_SHOT_IMPORT_H175_AIRCRAFTS_ECP_VCI_202210",
+      "code": "0"
+    },
+    {
+      "id": "459",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "GFG0fH",
+      "job": "subj_PREPARE_DIRS",
+      "code": "0"
+    },
+    {
+      "id": "460",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "GFG0fH",
+      "job": "subj_PREPARE_DIRS",
+      "code": "0"
+    },
+    {
+      "id": "461",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "GFG0fH",
+      "job": "subj_PREPARE_DIRS",
+      "code": "0"
+    },
+    {
+      "id": "462",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "tCsNan",
+      "job": "ONE_SHOT_IMPORT_H175_AIRCRAFTS_ECP_VCI_202210",
+      "code": "0"
+    },
+    {
+      "id": "463",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "tCsNan",
+      "job": "ONE_SHOT_IMPORT_H175_AIRCRAFTS_ECP_VCI_202210",
+      "code": "0"
+    },
+    {
+      "id": "464",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "tCsNan",
+      "job": "ONE_SHOT_IMPORT_H175_AIRCRAFTS_ECP_VCI_202210",
+      "code": "0"
+    },
+    {
+      "id": "465",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "tCsNan",
+      "job": "ONE_SHOT_IMPORT_H175_AIRCRAFTS_ECP_VCI_202210",
+      "code": "0"
+    },
+    {
+      "id": "466",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "tCsNan",
+      "job": "ONE_SHOT_IMPORT_H175_AIRCRAFTS_ECP_VCI_202210",
+      "code": "0"
+    },
+    {
+      "id": "467",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "tCsNan",
+      "job": "ONE_SHOT_IMPORT_H175_AIRCRAFTS_ECP_VCI_202210",
+      "code": "2041"
+    },
+    {
+      "id": "468",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "W0BaJY",
+      "job": "DWAR_PLMR_CORE_DOC_WORKFLOW",
+      "code": "0"
+    },
+    {
+      "id": "469",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "W0BaJY",
+      "job": "DWAR_PLMR_CORE_DOC_WORKFLOW",
+      "code": "0"
+    },
+    {
+      "id": "470",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "W0BaJY",
+      "job": "DWAR_PLMR_CORE_DOC_WORKFLOW",
+      "code": "0"
+    },
+    {
+      "id": "471",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "C3ZsZ5",
+      "job": "subj_PREPARE_DIRS",
+      "code": "0"
+    },
+    {
+      "id": "472",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "C3ZsZ5",
+      "job": "subj_PREPARE_DIRS",
+      "code": "0"
+    },
+    {
+      "id": "473",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "W0BaJY",
+      "job": "DWAR_PLMR_CORE_DOC_WORKFLOW",
+      "code": "0"
+    },
+    {
+      "id": "474",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "W0BaJY",
+      "job": "DWAR_PLMR_CORE_DOC_WORKFLOW",
+      "code": "1002"
+    },
+    {
+      "id": "475",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "W0BaJY",
+      "job": "DWAR_PLMR_CORE_DOC_WORKFLOW",
+      "code": "0"
+    },
+    {
+      "id": "476",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "W0BaJY",
+      "job": "DWAR_PLMR_CORE_DOC_WORKFLOW",
+      "code": "1"
+    },
+    {
+      "id": "477",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "W0BaJY",
+      "job": "DWAR_PLMR_CORE_DOC_WORKFLOW",
+      "code": "0"
+    },
+    {
+      "id": "478",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "cSt3nJ",
+      "job": "DWAR_PLMR_CORE_DOC_WORKFLOW",
+      "code": "0"
+    },
+    {
+      "id": "479",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "cSt3nJ",
+      "job": "DWAR_PLMR_CORE_DOC_WORKFLOW",
+      "code": "0"
+    },
+    {
+      "id": "480",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "cSt3nJ",
+      "job": "DWAR_PLMR_CORE_DOC_WORKFLOW",
+      "code": "0"
+    },
+    {
+      "id": "481",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "AtizAr",
+      "job": "subj_PREPARE_DIRS",
+      "code": "0"
+    },
+    {
+      "id": "482",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "AtizAr",
+      "job": "subj_PREPARE_DIRS",
+      "code": "0"
+    },
+    {
+      "id": "483",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "cSt3nJ",
+      "job": "DWAR_PLMR_CORE_DOC_WORKFLOW",
+      "code": "0"
+    },
+    {
+      "id": "484",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "cSt3nJ",
+      "job": "DWAR_PLMR_CORE_DOC_WORKFLOW",
+      "code": "0"
+    },
+    {
+      "id": "485",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "cSt3nJ",
+      "job": "DWAR_PLMR_CORE_DOC_WORKFLOW",
+      "code": "0"
+    },
+    {
+      "id": "486",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "cSt3nJ",
+      "job": "DWAR_PLMR_CORE_DOC_WORKFLOW",
+      "code": "0"
+    },
+    {
+      "id": "487",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "cSt3nJ",
+      "job": "DWAR_PLMR_CORE_DOC_WORKFLOW",
+      "code": "2001"
+    },
+    {
+      "id": "488",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "cSt3nJ",
+      "job": "DWAR_PLMR_CORE_DOC_WORKFLOW",
+      "code": "1"
+    },
+    {
+      "id": "489",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "cSt3nJ",
+      "job": "DWAR_PLMR_CORE_DOC_WORKFLOW",
+      "code": "0"
+    },
+    {
+      "id": "490",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "cSt3nJ",
+      "job": "DWAR_PLMR_CORE_DOC_WORKFLOW",
+      "code": "0"
+    },
+    {
+      "id": "491",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "cSt3nJ",
+      "job": "DWAR_PLMR_CORE_DOC_WORKFLOW",
+      "code": "2021"
+    },
+    {
+      "id": "492",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "cSt3nJ",
+      "job": "DWAR_PLMR_CORE_DOC_WORKFLOW",
+      "code": "1"
+    },
+    {
+      "id": "493",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "cSt3nJ",
+      "job": "DWAR_PLMR_CORE_DOC_WORKFLOW",
+      "code": "0"
+    },
+    {
+      "id": "494",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "cSt3nJ",
+      "job": "DWAR_PLMR_CORE_DOC_WORKFLOW",
+      "code": "0"
+    },
+    {
+      "id": "495",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "cSt3nJ",
+      "job": "DWAR_PLMR_CORE_DOC_WORKFLOW",
+      "code": "1"
+    },
+    {
+      "id": "496",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "cSt3nJ",
+      "job": "DWAR_PLMR_CORE_DOC_WORKFLOW",
+      "code": "0"
+    },
+    {
+      "id": "497",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "Mv3FDQ",
+      "job": "DWAR_PLMR_CORE_DOC_WORKFLOW",
+      "code": "0"
+    },
+    {
+      "id": "498",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "Mv3FDQ",
+      "job": "DWAR_PLMR_CORE_DOC_WORKFLOW",
+      "code": "0"
+    },
+    {
+      "id": "499",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "Mv3FDQ",
+      "job": "DWAR_PLMR_CORE_DOC_WORKFLOW",
+      "code": "0"
+    },
+    {
+      "id": "500",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "FLaq8Y",
+      "job": "subj_PREPARE_DIRS",
+      "code": "0"
+    },
+    {
+      "id": "501",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "FLaq8Y",
+      "job": "subj_PREPARE_DIRS",
+      "code": "0"
+    },
+    {
+      "id": "502",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "Mv3FDQ",
+      "job": "DWAR_PLMR_CORE_DOC_WORKFLOW",
+      "code": "0"
+    },
+    {
+      "id": "503",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "Mv3FDQ",
+      "job": "DWAR_PLMR_CORE_DOC_WORKFLOW",
+      "code": "0"
+    },
+    {
+      "id": "504",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "Mv3FDQ",
+      "job": "DWAR_PLMR_CORE_DOC_WORKFLOW",
+      "code": "0"
+    },
+    {
+      "id": "505",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "Mv3FDQ",
+      "job": "DWAR_PLMR_CORE_DOC_WORKFLOW",
+      "code": "0"
+    },
+    {
+      "id": "506",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "Mv3FDQ",
+      "job": "DWAR_PLMR_CORE_DOC_WORKFLOW",
+      "code": "2001"
+    },
+    {
+      "id": "507",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "Mv3FDQ",
+      "job": "DWAR_PLMR_CORE_DOC_WORKFLOW",
+      "code": "1"
+    },
+    {
+      "id": "508",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "Mv3FDQ",
+      "job": "DWAR_PLMR_CORE_DOC_WORKFLOW",
+      "code": "0"
+    },
+    {
+      "id": "509",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "Mv3FDQ",
+      "job": "DWAR_PLMR_CORE_DOC_WORKFLOW",
+      "code": "0"
+    },
+    {
+      "id": "510",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "Mv3FDQ",
+      "job": "DWAR_PLMR_CORE_DOC_WORKFLOW",
+      "code": "2021"
+    },
+    {
+      "id": "511",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "Mv3FDQ",
+      "job": "DWAR_PLMR_CORE_DOC_WORKFLOW",
+      "code": "1"
+    },
+    {
+      "id": "512",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "Mv3FDQ",
+      "job": "DWAR_PLMR_CORE_DOC_WORKFLOW",
+      "code": "0"
+    },
+    {
+      "id": "513",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "Mv3FDQ",
+      "job": "DWAR_PLMR_CORE_DOC_WORKFLOW",
+      "code": "0"
+    },
+    {
+      "id": "514",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "Mv3FDQ",
+      "job": "DWAR_PLMR_CORE_DOC_WORKFLOW",
+      "code": "1"
+    },
+    {
+      "id": "515",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "Mv3FDQ",
+      "job": "DWAR_PLMR_CORE_DOC_WORKFLOW",
+      "code": "0"
+    },
+    {
+      "id": "516",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "V8RMvN",
+      "job": "DWAR_H175_WASIS_ECP_CALC",
+      "code": "0"
+    },
+    {
+      "id": "517",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "V8RMvN",
+      "job": "DWAR_H175_WASIS_ECP_CALC",
+      "code": "0"
+    },
+    {
+      "id": "518",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "V8RMvN",
+      "job": "DWAR_H175_WASIS_ECP_CALC",
+      "code": "0"
+    },
+    {
+      "id": "519",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "qbaprG",
+      "job": "subj_PREPARE_DIRS",
+      "code": "0"
+    },
+    {
+      "id": "520",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "qbaprG",
+      "job": "subj_PREPARE_DIRS",
+      "code": "0"
+    },
+    {
+      "id": "521",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "V8RMvN",
+      "job": "DWAR_H175_WASIS_ECP_CALC",
+      "code": "0"
+    },
+    {
+      "id": "522",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "V8RMvN",
+      "job": "DWAR_H175_WASIS_ECP_CALC",
+      "code": "0"
+    },
+    {
+      "id": "523",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "V8RMvN",
+      "job": "DWAR_H175_WASIS_ECP_CALC",
+      "code": "2002"
+    },
+    {
+      "id": "524",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "V8RMvN",
+      "job": "DWAR_H175_WASIS_ECP_CALC",
+      "code": "1"
+    },
+    {
+      "id": "525",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "V8RMvN",
+      "job": "DWAR_H175_WASIS_ECP_CALC",
+      "code": "0"
+    },
+    {
+      "id": "526",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "V8RMvN",
+      "job": "DWAR_H175_WASIS_ECP_CALC",
+      "code": "2011"
+    },
+    {
+      "id": "527",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "RfREkW",
+      "job": "ONE_SHOT_IMPORT_H175_AIRCRAFTS_ECP_VCI_202210",
+      "code": "0"
+    },
+    {
+      "id": "528",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "RfREkW",
+      "job": "ONE_SHOT_IMPORT_H175_AIRCRAFTS_ECP_VCI_202210",
+      "code": "0"
+    },
+    {
+      "id": "529",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "RfREkW",
+      "job": "ONE_SHOT_IMPORT_H175_AIRCRAFTS_ECP_VCI_202210",
+      "code": "0"
+    },
+    {
+      "id": "530",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "rckbhC",
+      "job": "subj_PREPARE_DIRS",
+      "code": "0"
+    },
+    {
+      "id": "531",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "rckbhC",
+      "job": "subj_PREPARE_DIRS",
+      "code": "0"
+    },
+    {
+      "id": "532",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "rckbhC",
+      "job": "subj_PREPARE_DIRS",
+      "code": "0"
+    },
+    {
+      "id": "533",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "RfREkW",
+      "job": "ONE_SHOT_IMPORT_H175_AIRCRAFTS_ECP_VCI_202210",
+      "code": "0"
+    },
+    {
+      "id": "534",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "RfREkW",
+      "job": "ONE_SHOT_IMPORT_H175_AIRCRAFTS_ECP_VCI_202210",
+      "code": "0"
+    },
+    {
+      "id": "535",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "RfREkW",
+      "job": "ONE_SHOT_IMPORT_H175_AIRCRAFTS_ECP_VCI_202210",
+      "code": "0"
+    },
+    {
+      "id": "536",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "RfREkW",
+      "job": "ONE_SHOT_IMPORT_H175_AIRCRAFTS_ECP_VCI_202210",
+      "code": "0"
+    },
+    {
+      "id": "537",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "RfREkW",
+      "job": "ONE_SHOT_IMPORT_H175_AIRCRAFTS_ECP_VCI_202210",
+      "code": "0"
+    },
+    {
+      "id": "538",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "RfREkW",
+      "job": "ONE_SHOT_IMPORT_H175_AIRCRAFTS_ECP_VCI_202210",
+      "code": "2041"
+    },
+    {
+      "id": "539",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "WPHbSE",
+      "job": "ONE_SHOT_IMPORT_H175_AIRCRAFTS_ECP_VCI_202210",
+      "code": "0"
+    },
+    {
+      "id": "540",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "WPHbSE",
+      "job": "ONE_SHOT_IMPORT_H175_AIRCRAFTS_ECP_VCI_202210",
+      "code": "0"
+    },
+    {
+      "id": "541",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "WPHbSE",
+      "job": "ONE_SHOT_IMPORT_H175_AIRCRAFTS_ECP_VCI_202210",
+      "code": "0"
+    },
+    {
+      "id": "542",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "OvvJGK",
+      "job": "subj_PREPARE_DIRS",
+      "code": "0"
+    },
+    {
+      "id": "543",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "OvvJGK",
+      "job": "subj_PREPARE_DIRS",
+      "code": "0"
+    },
+    {
+      "id": "544",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "OvvJGK",
+      "job": "subj_PREPARE_DIRS",
+      "code": "0"
+    },
+    {
+      "id": "545",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "WPHbSE",
+      "job": "ONE_SHOT_IMPORT_H175_AIRCRAFTS_ECP_VCI_202210",
+      "code": "0"
+    },
+    {
+      "id": "546",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "WPHbSE",
+      "job": "ONE_SHOT_IMPORT_H175_AIRCRAFTS_ECP_VCI_202210",
+      "code": "0"
+    },
+    {
+      "id": "547",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "WPHbSE",
+      "job": "ONE_SHOT_IMPORT_H175_AIRCRAFTS_ECP_VCI_202210",
+      "code": "0"
+    },
+    {
+      "id": "548",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "WPHbSE",
+      "job": "ONE_SHOT_IMPORT_H175_AIRCRAFTS_ECP_VCI_202210",
+      "code": "0"
+    },
+    {
+      "id": "549",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "WPHbSE",
+      "job": "ONE_SHOT_IMPORT_H175_AIRCRAFTS_ECP_VCI_202210",
+      "code": "0"
+    },
+    {
+      "id": "550",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "WPHbSE",
+      "job": "ONE_SHOT_IMPORT_H175_AIRCRAFTS_ECP_VCI_202210",
+      "code": "0"
+    },
+    {
+      "id": "551",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "WPHbSE",
+      "job": "ONE_SHOT_IMPORT_H175_AIRCRAFTS_ECP_VCI_202210",
+      "code": "0"
+    },
+    {
+      "id": "552",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "WPHbSE",
+      "job": "ONE_SHOT_IMPORT_H175_AIRCRAFTS_ECP_VCI_202210",
+      "code": "0"
+    },
+    {
+      "id": "553",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "WPHbSE",
+      "job": "ONE_SHOT_IMPORT_H175_AIRCRAFTS_ECP_VCI_202210",
+      "code": "0"
+    },
+    {
+      "id": "554",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "WPHbSE",
+      "job": "ONE_SHOT_IMPORT_H175_AIRCRAFTS_ECP_VCI_202210",
+      "code": "0"
+    },
+    {
+      "id": "555",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "WPHbSE",
+      "job": "ONE_SHOT_IMPORT_H175_AIRCRAFTS_ECP_VCI_202210",
+      "code": "0"
+    },
+    {
+      "id": "556",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "WPHbSE",
+      "job": "ONE_SHOT_IMPORT_H175_AIRCRAFTS_ECP_VCI_202210",
+      "code": "0"
+    },
+    {
+      "id": "557",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "WPHbSE",
+      "job": "ONE_SHOT_IMPORT_H175_AIRCRAFTS_ECP_VCI_202210",
+      "code": "0"
+    },
+    {
+      "id": "558",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "WPHbSE",
+      "job": "ONE_SHOT_IMPORT_H175_AIRCRAFTS_ECP_VCI_202210",
+      "code": "0"
+    },
+    {
+      "id": "559",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "WPHbSE",
+      "job": "ONE_SHOT_IMPORT_H175_AIRCRAFTS_ECP_VCI_202210",
+      "code": "0"
+    },
+    {
+      "id": "560",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "WPHbSE",
+      "job": "ONE_SHOT_IMPORT_H175_AIRCRAFTS_ECP_VCI_202210",
+      "code": "0"
+    },
+    {
+      "id": "561",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "WPHbSE",
+      "job": "ONE_SHOT_IMPORT_H175_AIRCRAFTS_ECP_VCI_202210",
+      "code": "0"
+    },
+    {
+      "id": "562",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "WPHbSE",
+      "job": "ONE_SHOT_IMPORT_H175_AIRCRAFTS_ECP_VCI_202210",
+      "code": "0"
+    },
+    {
+      "id": "563",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "WPHbSE",
+      "job": "ONE_SHOT_IMPORT_H175_AIRCRAFTS_ECP_VCI_202210",
+      "code": "0"
+    },
+    {
+      "id": "564",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "WPHbSE",
+      "job": "ONE_SHOT_IMPORT_H175_AIRCRAFTS_ECP_VCI_202210",
+      "code": "0"
+    },
+    {
+      "id": "565",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "WPHbSE",
+      "job": "ONE_SHOT_IMPORT_H175_AIRCRAFTS_ECP_VCI_202210",
+      "code": "0"
+    },
+    {
+      "id": "566",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "WPHbSE",
+      "job": "ONE_SHOT_IMPORT_H175_AIRCRAFTS_ECP_VCI_202210",
+      "code": "0"
+    },
+    {
+      "id": "567",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "WPHbSE",
+      "job": "ONE_SHOT_IMPORT_H175_AIRCRAFTS_ECP_VCI_202210",
+      "code": "0"
+    },
+    {
+      "id": "568",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "WPHbSE",
+      "job": "ONE_SHOT_IMPORT_H175_AIRCRAFTS_ECP_VCI_202210",
+      "code": "0"
+    },
+    {
+      "id": "569",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "WPHbSE",
+      "job": "ONE_SHOT_IMPORT_H175_AIRCRAFTS_ECP_VCI_202210",
+      "code": "0"
+    },
+    {
+      "id": "570",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "WPHbSE",
+      "job": "ONE_SHOT_IMPORT_H175_AIRCRAFTS_ECP_VCI_202210",
+      "code": "0"
+    },
+    {
+      "id": "571",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "WPHbSE",
+      "job": "ONE_SHOT_IMPORT_H175_AIRCRAFTS_ECP_VCI_202210",
+      "code": "0"
+    },
+    {
+      "id": "572",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "WPHbSE",
+      "job": "ONE_SHOT_IMPORT_H175_AIRCRAFTS_ECP_VCI_202210",
+      "code": "0"
+    },
+    {
+      "id": "573",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "Cd9mid",
+      "job": "CHECK_INSTALL",
+      "code": "0"
+    },
+    {
+      "id": "574",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "Cd9mid",
+      "job": "CHECK_INSTALL",
+      "code": "0"
+    },
+    {
+      "id": "575",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "Cd9mid",
+      "job": "CHECK_INSTALL",
+      "code": "0"
+    },
+    {
+      "id": "576",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "Cd9mid",
+      "job": "CHECK_INSTALL",
+      "code": "0"
+    },
+    {
+      "id": "577",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "Cd9mid",
+      "job": "CHECK_INSTALL",
+      "code": "1"
+    },
+    {
+      "id": "578",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "BgbsXb",
+      "job": "CHECK_INSTALL",
+      "code": "0"
+    },
+    {
+      "id": "579",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "BgbsXb",
+      "job": "CHECK_INSTALL",
+      "code": "0"
+    },
+    {
+      "id": "580",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "BgbsXb",
+      "job": "CHECK_INSTALL",
+      "code": "0"
+    },
+    {
+      "id": "581",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "BgbsXb",
+      "job": "CHECK_INSTALL",
+      "code": "0"
+    },
+    {
+      "id": "582",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "BgbsXb",
+      "job": "CHECK_INSTALL",
+      "code": "1"
+    },
+    {
+      "id": "583",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "zLJv9D",
+      "job": "DWAR_BACKUP_TABLES",
+      "code": "0"
+    },
+    {
+      "id": "584",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "zLJv9D",
+      "job": "DWAR_BACKUP_TABLES",
+      "code": "0"
+    },
+    {
+      "id": "585",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "zLJv9D",
+      "job": "DWAR_BACKUP_TABLES",
+      "code": "0"
+    },
+    {
+      "id": "586",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "zLJv9D",
+      "job": "DWAR_BACKUP_TABLES",
+      "code": "0"
+    },
+    {
+      "id": "587",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "eppltT",
+      "job": "subj_PREPARE_DIRS",
+      "code": "0"
+    },
+    {
+      "id": "588",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "eppltT",
+      "job": "subj_PREPARE_DIRS",
+      "code": "0"
+    },
+    {
+      "id": "589",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "eppltT",
+      "job": "subj_PREPARE_DIRS",
+      "code": "0"
+    },
+    {
+      "id": "590",
+      "moment": "2023-10-18 01:00:00",
+      "father_pid": "eppltT",
+      "job": "subj_PREPARE_DIRS",
+      "code": "1"
+    },
+    {
+      "id": "591",
+      "moment": "2023-10-18 05:00:00",
+      "father_pid": "eppltT",
+      "job": "subj_PREPARE_DIRS",
+      "code": "0"
+    },
+    {
+      "id": "592",
+      "moment": "2023-10-18 05:00:00",
+      "father_pid": "eppltT",
+      "job": "subj_PREPARE_DIRS",
+      "code": "0"
+    }
+  ]
+}
