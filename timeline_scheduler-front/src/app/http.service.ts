@@ -7,12 +7,12 @@ import {Observable} from "rxjs";
 })
 export class HttpService {
 
-  constructor(private http: HttpClient) {}
-
-
-
-  getData():Observable<any>  {
-    return this.http.get('./assets/data/db.php')
-
+  constructor(private http: HttpClient) {
+  }
+  getData(moment:string)  {
+    this.http.get(`http://localhost:8000/api/job?moment=${moment}`).subscribe(data => {
+        return data;
+      }
+    )
   }
 }

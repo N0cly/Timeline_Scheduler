@@ -1,107 +1,139 @@
-import {Component, OnInit, ViewChild} from '@angular/core';
-import logs from '../assets/data/data2.json'
-import {SchedulerPro, DatePicker, DateHelper, Toast} from "@bryntum/schedulerpro";
+import { Component } from '@angular/core';
+import { SchedulerPro, DatePicker, DateHelper } from "@bryntum/schedulerpro";
+import {HttpClient, HttpHeaders} from "@angular/common/http";
 
 @Component({
-  selector    : 'body',
-  templateUrl : './app.component.html',
-  styleUrls   : ['./app.component.scss']
+  selector: 'body',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.scss']
 })
 
-export class AppComponent{
+export class AppComponent {
 
   inputData: any;
   eventArray: any[] = [];
   resourcesArray: any[] = [];
   assignmentsArray: any[] = [];
+  moment: string = '';
 
+  constructor(private http: HttpClient) {
+    // Fonction pour récupérer les données avec une date donnée
+    // const  requestData = (moment: string)=> {
+    //   let url = `http://localhost:8000/api/job/planning/get/${moment}`;
+    //   http.get(url).subscribe((data: any) => {
+    //     // console.log(data);
+    //     // Mettez à jour les données
+    //     this.inputData = data;
+    //     processInputData(this.inputData);
+    //   });
+    // }
 
-  constructor() {
+    const requestDataPost = (moment: string) => {
 
-    this.inputData = logs;
-    const groupedData: any = {};
+      const httpOptions = {
+        headers: new HttpHeaders({
+          'Content-Type': 'application/json'
+        })
+      };
+      let url = 'http://localhost:8000/api/job/planning/post';
+      let date = {date: `2023-10-18`}
 
-    for (const record of this.inputData.RECORDS) {
-      const job = record.job;
-
-      if (!groupedData[job]) {
-        groupedData[job] = [
-          {
-            id: record.id,
-            name: record.father_pid,
-            startDate: record.moment,
-            endDate: record.moment,
-            eventColor: record.code === '0' ? 'green' : 'red'
-          }
-        ];
-      } else {
-        let found = false;
-
-        for (const item of groupedData[job]) {
-          if (item.name === record.father_pid) {
-            item.endDate = record.moment;
-            found = true;
-            break;
-          }
-          if (record.code === '1'){
-            item.eventColor = "red"
-          }
-        }
-
-        if (!found) {
-
-          groupedData[job].push({
-            id: record.id,
-            name: record.father_pid,
-            startDate: record.moment,
-            endDate: record.moment,
-            eventColor: record.code === '0' ? 'green' : 'red'
-          });
-        }
-      }
-
+      this.http.post<any>(url, date, httpOptions ).subscribe((data: any) => {
+        processInputData(this.inputData);
+        this.inputData = data;
+      });
     }
-    for (const job in groupedData){
-      if (groupedData.hasOwnProperty(job)){
-        const jobData = groupedData[job];
 
-        if (jobData && jobData.length > 0) {
-          this.resourcesArray.push({
-            id: job,
-            name: job
-          });
+    console.log(this.inputData)
 
-          for (const item of jobData){
-            this.eventArray.push({
-              id: item.id,
-              name: item.name,
-              startDate: item.startDate,
-              endDate: item.endDate,
-              eventColor: item.eventColor
-            });
+    const processInputData = (inputData: any) => {
+      const groupedData: any = {};
+      for (const record of inputData.RECORDS) {
+        const job = record.job;
+
+        if (!groupedData[job]) {
+          groupedData[job] = [
+            {
+              id: record.id,
+              name: record.father_pid,
+              startDate: record.moment,
+              endDate: record.moment,
+              eventColor: record.code === '0' ? 'green' : 'red'
+            }
+          ];
+        } else {
+          let found = false;
+
+          for (const item of groupedData[job]) {
+            if (item.name === record.father_pid) {
+              item.endDate = record.moment;
+              found = true;
+              break;
+            }
+            if (record.code === '1') {
+              item.eventColor = "red";
+            }
           }
 
-          for (const item of jobData) {
-            this.assignmentsArray.push({
-              event: item.id,
-              resource: job
+          if (!found) {
+            groupedData[job].push({
+              id: record.id,
+              name: record.father_pid,
+              startDate: record.moment,
+              endDate: record.moment,
+              eventColor: record.code === '0' ? 'green' : 'red'
             });
           }
         }
       }
+
+      this.resourcesArray = [];
+      this.eventArray = [];
+      this.assignmentsArray = [];
+
+      for (const job in groupedData) {
+        if (groupedData.hasOwnProperty(job)) {
+          const jobData = groupedData[job];
+
+          if (jobData && jobData.length > 0) {
+            this.resourcesArray.push({
+              id: job,
+              name: job
+            });
+
+            for (const item of jobData) {
+              this.eventArray.push({
+                id: item.id,
+                name: item.name,
+                startDate: item.startDate,
+                endDate: item.endDate,
+                eventColor: item.eventColor
+              });
+            }
+
+            for (const item of jobData) {
+              this.assignmentsArray.push({
+                event: item.id,
+                resource: job
+              });
+            }
+          }
+        }
+      }
+
+      scheduler.resources = this.resourcesArray;
+      scheduler.events = this.eventArray;
+      scheduler.assignments = this.assignmentsArray;
     }
-
-    console.log(this.resourcesArray)
-    console.log(this.eventArray)
-    console.log(this.assignmentsArray)
-
 
     const datePicker = new DatePicker({
       appendTo: document.body,
       width: '24em',
       date: new Date(),
-      onSelectionChange: ({ selection }: {selection:any}) => {
+      onSelectionChange: ({ selection }: { selection: any }) => {
         const selectedDate = selection[0];
+        this.moment = DateHelper.format(selectedDate, 'YYYY-MM-DD');
+        requestDataPost(this.moment);
         scheduler.setStartDate(selectedDate);
         scheduler.refreshRows();
       }
