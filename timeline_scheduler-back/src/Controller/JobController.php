@@ -7,6 +7,7 @@ namespace App\Controller;
 use App\Service\JobService;
 use Container5MCm43p\getJobControllerService;
 use Symfony\Component\HttpFoundation\JsonResponse;
+use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 
@@ -29,10 +30,10 @@ class JobController extends AbstractController
     #[Route('/api/job/planning/post', name: 'job_planning_post', methods: ['POST', 'OPTIONS'])]
     public function postPlanning(Request $request): JsonResponse
     {
-        $date = $request->request->get('moment');
-        if(!isset($date) ||$date==null ) {
-            $date= date("Y-m-d");
-        }
+       // print_r($request);
+        $date = $request->request->get('date',date("Y-m-d"));
+
+
         $jobCtrl = new JobService();
         $result= $jobCtrl->postPlanning($date);
 
