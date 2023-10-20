@@ -16,31 +16,44 @@ export class AppComponent {
   assignmentsArray: any[] = [];
   moment: string = '';
 
-  constructor(private http: HttpClient) {
-    // Fonction pour récupérer les données avec une date donnée
-    // const  requestData = (moment: string)=> {
-    //   let url = `http://localhost:8000/api/job/planning/get/${moment}`;
-    //   http.get(url).subscribe((data: any) => {
-    //     // console.log(data);
-    //     // Mettez à jour les données
-    //     this.inputData = data;
-    //     processInputData(this.inputData);
-    //   });
-    // }
+   dateTest = new Date()
+   year = this.dateTest.getFullYear()
+   month = this.dateTest.getMonth()+1
+   day = this.dateTest.getDate()
+   day1 = this.dateTest.getDate()+1
 
+   dateToday = `${this.year}-${this.month}-${this.day}`
+   dateTomorrow = `${this.year}-${this.month}-${this.day1}`
+
+  constructor(private http: HttpClient) {
+    const  requestData = (moment: string)=> {
+      let url = `http://localhost:8000/api/job/planning/get/${moment}`;
+      http.get(url).subscribe((data: any) => {
+        // console.log(data);
+        // Mettez à jour les données
+        this.inputData = data;
+        processInputData(this.inputData);
+      });
+    }
     const requestDataPost = (moment: string) => {
+      // Avant d'envoyer la requête, affichez la date dans la console
+      console.log('Date envoyée :', moment);
 
       const httpOptions = {
         headers: new HttpHeaders({
-          'Content-Type': 'application/json'
+          // "Content-Type": `multipart/form-data; charset=utf-8; boundary=  ${Math.random().toString().substr(2)}`
+          "Content-Type": "application/json"
+
         })
       };
-      let url = 'http://localhost:8000/api/job/planning/post';
-      let date = {date: `2023-10-18`}
 
-      this.http.post<any>(url, date, httpOptions ).subscribe((data: any) => {
+      const url = 'http://localhost:8000/api/job/planning/post';
+      const data = { "moment": `${moment}` };
+
+      this.http.post<any>(url, moment, httpOptions).subscribe((response: any) => {
+        this.inputData = response;
         processInputData(this.inputData);
-        this.inputData = data;
+        // console.clear();
       });
     }
 
@@ -142,8 +155,8 @@ export class AppComponent {
     const scheduler = new SchedulerPro({
       appendTo: document.body,
       autoHeight: true,
-      startDate: '2023-10-18',
-      endDate: '2023-10-19',
+      startDate: this.dateToday,
+      endDate: this.dateTomorrow,
       viewPreset: 'hourAndDay',
       columns: [
         {
@@ -156,5 +169,6 @@ export class AppComponent {
       events: this.eventArray,
       assignments: this.assignmentsArray
     });
+
   }
 }
