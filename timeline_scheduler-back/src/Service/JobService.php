@@ -48,11 +48,9 @@ class JobService
             die("Connection failed: " . $conn->connect_error);
         }
 
-        // Utilisez des requêtes préparées pour éviter les injections SQL
         $sql = "SELECT id, moment, father_pid, job, `code` FROM talend_logs WHERE moment >= ? AND moment <= ?";
         $stmt = $conn->prepare($sql);
 
-        // Créez la date de début et de fin
         $momentStart = $moment . " 00:00:00";
         $momentEnd = $moment . " 23:59:59";
 

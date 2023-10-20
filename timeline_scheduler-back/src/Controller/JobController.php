@@ -30,12 +30,10 @@ class JobController extends AbstractController
     #[Route('/api/job/planning/post', name: 'job_planning_post', methods: ['POST', 'OPTIONS'])]
     public function postPlanning(Request $request): JsonResponse
     {
-       // print_r($request);
-        $date = $request->request->get('date',date("Y-m-d"));
-
+        $moment = $request->request->get('moment', date("Y-m-d"));
 
         $jobCtrl = new JobService();
-        $result= $jobCtrl->postPlanning($date);
+        $result = $jobCtrl->postPlanning($moment);
 
         return new JsonResponse($result);
     }
