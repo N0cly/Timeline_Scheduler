@@ -1,0 +1,9 @@
+<div class="container">
+  <h1>Angular Scheduler Pro</h1>
+  <div id="datepicker-container"> <!-- Conteneur pour le datepicker -->
+    <app-datepicker (dateSelected)="onDateSelected($event)"></app-datepicker>
+  </div>
+  <div id="scheduler-container"> <!-- Conteneur pour le scheduler -->
+    <app-scheduler [selectedDate]="selectedDate"></app-scheduler>
+  </div>
+</div>
