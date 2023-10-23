@@ -1,4 +1,4 @@
-import { SchedulerProConfig, ProjectModelConfig, ViewPreset } from '@bryntum/schedulerpro';
+import {SchedulerProConfig, ProjectModelConfig, ViewPreset, DatePickerConfig} from '@bryntum/schedulerpro';
 
 export const projectConfig: Partial<ProjectModelConfig> = {
   // Empty project config
@@ -22,3 +22,7 @@ export const schedulerProConfig: Partial<SchedulerProConfig> = {
   viewPreset :  "hourAndDay"
 
 };
+
+export const datePickerConfig: Partial<DatePickerConfig> = {
+
+}

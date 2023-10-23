@@ -3,7 +3,7 @@ import { SchedulerPro, DatePicker, DateHelper } from "@bryntum/schedulerpro";
 import {HttpClient, HttpHeaders} from "@angular/common/http";
 
 @Component({
-  selector: 'body',
+  selector: 'app-compenent',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
@@ -14,25 +14,31 @@ export class AppComponent {
   eventArray: any[] = [];
   resourcesArray: any[] = [];
   assignmentsArray: any[] = [];
-  moment: string = '';
 
-   dateTest = new Date()
-   year = this.dateTest.getFullYear()
-   month = this.dateTest.getMonth()+1
-   day = this.dateTest.getDate()
-   day1 = this.dateTest.getDate()+1
+  dateTest = new Date()
+  year = this.dateTest.getFullYear()
+  month = this.dateTest.getMonth()+1
+  day = this.dateTest.getDate()
+  day1 = this.dateTest.getDate()+1
 
-   dateToday = `${this.year}-${this.month}-${this.day}`
-   dateTomorrow = `${this.year}-${this.month}-${this.day1}`
+  dateToday = `${this.year}-${this.month}-${this.day}`
+  dateTomorrow = `${this.year}-${this.month}-${this.day1}`
+  moment: string = this.dateToday;
 
   constructor(private http: HttpClient) {
+
+
     const  requestData = (moment: string)=> {
       let url = `http://localhost:8000/api/job/planning/get/${moment}`;
       http.get(url).subscribe((data: any) => {
         // console.log(data);
         // Mettez à jour les données
         this.inputData = data;
-        processInputData(this.inputData);
+        processInputData(data);
+        console.log("------GET------")
+        console.log(data)
+        console.log("------------")
+
       });
     }
     const requestDataPost = (moment: string) => {
@@ -41,27 +47,36 @@ export class AppComponent {
 
       const httpOptions = {
         headers: new HttpHeaders({
-          // "Content-Type": `multipart/form-data; charset=utf-8; boundary=  ${Math.random().toString().substr(2)}`
           "Content-Type": "application/json"
-
         })
       };
 
       const url = 'http://localhost:8000/api/job/planning/post';
-      const data = { "moment": `${moment}` };
+      const data = { "moment":moment };
 
-      this.http.post<any>(url, moment, httpOptions).subscribe((response: any) => {
+      this.http.post<any>(url, data, httpOptions).subscribe((response: any) => {
         this.inputData = response;
+        console.log("------POST------")
+        console.log(response)
+        console.log("------------")
         processInputData(this.inputData);
+
+        requestData(moment)
+
+
         // console.clear();
       });
     }
 
     console.log(this.inputData)
+    requestData(this.moment);
+
+
 
     const processInputData = (inputData: any) => {
       const groupedData: any = {};
-      for (const record of inputData.RECORDS) {
+
+      inputData.RECORDS.forEach((record: any) => {
         const job = record.job;
 
         if (!groupedData[job]) {
@@ -71,8 +86,8 @@ export class AppComponent {
               name: record.father_pid,
               startDate: record.moment,
               endDate: record.moment,
-              eventColor: record.code === '0' ? 'green' : 'red'
-            }
+              eventColor: Number(record.code) === 0 ? 'green' : 'red',
+            },
           ];
         } else {
           let found = false;
@@ -80,11 +95,11 @@ export class AppComponent {
           for (const item of groupedData[job]) {
             if (item.name === record.father_pid) {
               item.endDate = record.moment;
+              if (Number(record.code) === 1) {
+                item.eventColor = 'red';
+              }
               found = true;
               break;
-            }
-            if (record.code === '1') {
-              item.eventColor = "red";
             }
           }
 
@@ -94,49 +109,44 @@ export class AppComponent {
               name: record.father_pid,
               startDate: record.moment,
               endDate: record.moment,
-              eventColor: record.code === '0' ? 'green' : 'red'
+              eventColor: Number(record.code) === 0 ? 'green' : 'red',
             });
           }
         }
-      }
+      });
 
-      this.resourcesArray = [];
-      this.eventArray = [];
-      this.assignmentsArray = [];
+      const resourcesArray: any[] = [];
+      const eventArray: any[] = [];
+      const assignmentsArray: any[] = [];
 
       for (const job in groupedData) {
         if (groupedData.hasOwnProperty(job)) {
-          const jobData = groupedData[job];
+          resourcesArray.push({
+            id: job,
+            name: job,
+          });
 
-          if (jobData && jobData.length > 0) {
-            this.resourcesArray.push({
-              id: job,
-              name: job
+          for (const item of groupedData[job]) {
+            eventArray.push({
+              id: item.id,
+              name: item.name,
+              startDate: item.startDate,
+              endDate: item.endDate,
+              eventColor: item.eventColor,
             });
 
-            for (const item of jobData) {
-              this.eventArray.push({
-                id: item.id,
-                name: item.name,
-                startDate: item.startDate,
-                endDate: item.endDate,
-                eventColor: item.eventColor
-              });
-            }
-
-            for (const item of jobData) {
-              this.assignmentsArray.push({
-                event: item.id,
-                resource: job
-              });
-            }
+            assignmentsArray.push({
+              event: item.id,
+              resource: job,
+            });
           }
         }
       }
 
-      scheduler.resources = this.resourcesArray;
-      scheduler.events = this.eventArray;
-      scheduler.assignments = this.assignmentsArray;
+      scheduler.resources = resourcesArray;
+      scheduler.events = eventArray;
+      scheduler.assignments = assignmentsArray;
+
     }
 
     const datePicker = new DatePicker({
@@ -146,7 +156,7 @@ export class AppComponent {
       onSelectionChange: ({ selection }: { selection: any }) => {
         const selectedDate = selection[0];
         this.moment = DateHelper.format(selectedDate, 'YYYY-MM-DD');
-        requestDataPost(this.moment);
+        requestData(this.moment);
         scheduler.setStartDate(selectedDate);
         scheduler.refreshRows();
       }
@@ -168,7 +178,9 @@ export class AppComponent {
       resources: this.resourcesArray,
       events: this.eventArray,
       assignments: this.assignmentsArray
+
     });
 
   }
+
 }
