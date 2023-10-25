@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import {HttpClientModule} from "@angular/common/http";
 import { DatepickerComponent } from './datepicker/datepicker.component';
 import { SchedulerComponent } from './scheduler/scheduler.component';
+import {FormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -15,13 +16,14 @@ import { SchedulerComponent } from './scheduler/scheduler.component';
     SchedulerComponent,
 
   ],
-  imports: [
-    BrowserModule,
-    BryntumSchedulerProModule,
-    AppRoutingModule,
-    HttpClientModule
+    imports: [
+        BrowserModule,
+        BryntumSchedulerProModule,
+        AppRoutingModule,
+        HttpClientModule,
+        FormsModule
 
-  ],
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })

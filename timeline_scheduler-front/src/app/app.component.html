@@ -1,2 +1,13 @@
-<app-datepicker (dateSelected)="onDateSelected($event)"></app-datepicker>
-<app-scheduler [selectedDate]="selectedDate"></app-scheduler>
+<div class="container">
+  <h1>Angular Scheduler Pro</h1>
+  <div id="datepicker-container">
+    <input type="checkbox" name="checkbox" id="datepicker-check" [(ngModel)]="isCheckboxChecked">
+    <!-- Conteneur pour le datepicker -->
+    <app-datepicker class="calendar" (dateSelected)="onDateSelected($event)" (moment)="onMoment($event)"
+                    [ngClass]="{'on': isCheckboxChecked}"></app-datepicker>
+  </div>
+  <div id="scheduler-container">
+    <!-- Conteneur pour le scheduler -->
+    <app-scheduler [selectedDate]="selectedDate" [moment]="moment"></app-scheduler>
+  </div>
+</div>
