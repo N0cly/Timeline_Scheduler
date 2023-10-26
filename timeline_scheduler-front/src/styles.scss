@@ -1,0 +1,11 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~@bryntum/schedulerpro/schedulerpro.material.css";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+*::-webkit-scrollbar{
+  display: none;
+
+}
+
+h1{
+  font-family: Montserrat, sans-serif;
+}

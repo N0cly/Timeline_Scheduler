@@ -1,0 +1,7 @@
+talend_logs_driver: pdo_mysql
+talend_logs_host: sma8196.eu.eurocopter.corp
+talend_logs_port: 3306
+talend_logs_dbname: talend_logs_val
+talend_logs_user: talendlogs
+talend_logs_password: talendlogs
+talend_logs_charset: utf8mb4

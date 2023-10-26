@@ -1,1 +1,8 @@
-<input [(ngModel)]="resourceSearch" (ngModelChange)="onResourceSearchChange()" placeholder="Recherche par ressources" >
+
+<div class="input-container">
+  <input  [(ngModel)]="resourceSearch" (ngModelChange)="onResourceSearchChange()" placeholder="Recherche par ressources" class="input-field" type="text">
+  <label class="input-label">Resources</label>
+  <span class="input-highlight"></span>
+</div>
+
+<div id="scheduler-container"></div>

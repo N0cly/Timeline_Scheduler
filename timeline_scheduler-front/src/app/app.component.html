@@ -1,17 +1,10 @@
 <div class="container">
+
   <h1>Angular Scheduler Pro</h1>
-  <div id="datepicker-container" [ngClass]="{'on': isCheckboxChecked}">
-<!--    <input type="checkbox" name="checkbox" id="datepicker-check" [(ngModel)]="isCheckboxChecked">-->
-    <label class="container-arrow"  id="datepicker-check">
-      <input checked="checked" type="checkbox" [(ngModel)]="isCheckboxChecked">
-      <svg viewBox="0 0 320 512" height="1em" xmlns="http://www.w3.org/2000/svg" class="chevron-right"><path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"></path></svg>
-    </label>
-    <!-- Conteneur pour le datepicker -->
-    <app-datepicker class="calendar" (dateSelected)="onDateSelected($event)" (moment)="onMoment($event)"
-                    ></app-datepicker>
-  </div>
-  <div id="scheduler-container">
-    <!-- Conteneur pour le scheduler -->
-    <app-scheduler [selectedDate]="selectedDate" [moment]="moment"></app-scheduler>
-  </div>
+
+  <app-datepicker class="calendar" (dateSelected)="onDateSelected($event)" (moment)="onMoment($event)"></app-datepicker>
+
+  <app-scheduler [selectedDate]="selectedDate" [moment]="moment"></app-scheduler>
+
+  <app-chart100></app-chart100>
 </div>

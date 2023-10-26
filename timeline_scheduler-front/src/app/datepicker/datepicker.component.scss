@@ -1,1 +1,102 @@
 
+
+
+#datepicker-container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  //width: 500px;
+  //padding-left: 50px;
+  border: 1px solid #0000;
+
+}
+
+#b-toolbar-1{
+  border-top: black
+}
+
+#datepicker-check{
+  opacity: 1;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 380px;
+  width: 50px;
+  height: 50px;
+
+}
+
+#datepicker-container{
+  transition: 0.3s ease;
+}
+
+.on{
+  transform: translate(385px,0);
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  transition: 0.5s ease;
+
+}
+
+/*------ Settings ------*/
+.container-arrow {
+  --color: #a5a5b0;
+  --size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+  font-size: var(--size);
+  user-select: none;
+  fill: var(--color);
+}
+
+.chevron-right {
+  position: absolute;
+  animation: keyframes-return .5s backwards;
+}
+
+/* ------ On check event ------ */
+input:checked ~ .chevron-right {
+  animation: keyframes-rotate .5s backwards;
+  transform: rotate(180deg);
+}
+
+/* ------ Hide the default checkbox ------ */
+.check {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* ------ Animation ------ */
+@keyframes keyframes-rotate {
+  0% {
+    transform: rotate(0deg);
+    opacity: 0;
+  }
+
+  100% {
+    transform: rotate(180deg);
+  }
+}
+
+@keyframes keyframes-return {
+  0% {
+    transform: rotate(180deg);
+    opacity: 0;
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+
+
