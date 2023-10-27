@@ -1,4 +1,4 @@
-import {Component, Output} from '@angular/core';
+import {Component, Input, Output} from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -15,7 +15,7 @@ export class AppComponent {
 
   @Output() selectedDate:Date = this.dateTest;
   @Output() moment: string = this.dateToday;
-
+  @Output() data: any;
   constructor() {
 
   }
@@ -27,5 +27,9 @@ export class AppComponent {
 
   onMoment(moment: string) {
     this.moment = moment;
+  }
+
+  onData(data: any) {
+    this.data = data;
   }
 }

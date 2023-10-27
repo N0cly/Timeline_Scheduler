@@ -2,9 +2,9 @@
 
   <h1>Angular Scheduler Pro</h1>
 
-  <app-datepicker class="calendar" (dateSelected)="onDateSelected($event)" (moment)="onMoment($event)"></app-datepicker>
+  <app-datepicker  class="calendar" (dateSelected)="onDateSelected($event)" (moment)="onMoment($event)"></app-datepicker>
 
-  <app-scheduler [selectedDate]="selectedDate" [moment]="moment"></app-scheduler>
+  <app-scheduler [selectedDate]="selectedDate" [moment]="moment" (data)="onData($event)"></app-scheduler>
 
-  <app-chart100></app-chart100>
+  <app-chart100 [groupedData]="data"></app-chart100>
 </div>
