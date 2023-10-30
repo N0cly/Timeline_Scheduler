@@ -24,7 +24,7 @@ export type ChartOptions = {
 })
 export class Chart100Component implements OnChanges {
   chartOptions: ChartOptions = {
-    series: [], // initialisez les séries vides
+    series: [],
     chart: {
       type: "bar",
       height: 350,
@@ -44,7 +44,7 @@ export class Chart100Component implements OnChanges {
       }
     ],
     xaxis: {
-      categories: [], // initialisez les catégories vides
+      categories: [],
     },
     fill: {
       opacity: 1
@@ -60,34 +60,36 @@ export class Chart100Component implements OnChanges {
 
   ngOnChanges(changes: SimpleChanges) {
     if (this.groupedData) {
-      console.log(this.groupedData)
+      console.log('-----Charts100-----')
+      console.log(this.groupedData);
       this.updateChartOptions();
     }
   }
 
 
   updateChartOptions() {
-    // Assume that this.groupedData.success is an array of data
-    const successData = this.groupedData.success; // Array of data
-    const errorData = this.groupedData.error; // Array of data
+    const successData = this.groupedData.success;
+    const errorData = this.groupedData.error;
 
 
     this.chartOptions = {
       series: [
         {
           name: "Success",
-          data: successData
+          data: successData,
         },
         {
           name: "error",
           data: errorData
         }
+
       ],
       chart: {
         type: "bar",
         height: 350,
         stacked: true,
-        stackType: "100%"
+        stackType: "100%",
+
       },
       responsive: [
         {
@@ -102,12 +104,31 @@ export class Chart100Component implements OnChanges {
         }
       ],
       xaxis: {
-        categories: this.groupedData.Label, // Assuming categories are in Label
+        categories: this.groupedData.label,
+
       },
       fill: {
-        opacity: 1
+        opacity: 1,
+        colors : [
+          '#66bb6a',
+          '#ef5350'
+        ]
       },
+
       legend: {
+
+        markers: {
+          fillColors: [
+            '#66bb6a',
+            '#ef5350'
+          ]
+        },
+        // labels: {
+        //   colors : [
+        //     '#66bb6a',
+        //     '#ef5350'
+        //   ]
+        // },
         position: "right",
         offsetX: 0,
         offsetY: 50
